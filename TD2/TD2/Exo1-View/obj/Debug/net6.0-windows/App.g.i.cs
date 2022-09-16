@@ -59,7 +59,7 @@ namespace Exo1_View {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/Exo1-View;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Exo1-View;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
