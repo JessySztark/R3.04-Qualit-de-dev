@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "daCnVrllW2k7SmTC0ezBcxt9sge65sDTy/mDns95sU58T7FvueD2rn7UEdMfXDxvwI+XxY5lUrRO/Sz2On8YUw==",
+  "dgSpecHash": "c7ihWNPkuC27uO0HgZ8Vh+9eKf+EaDuuvN4zcFR2gPofnJpX/+41ldYUZ+S0061ODJGLRdqmuo848kslwYRHrg==",
   "success": true,
-  "projectFilePath": "P:\\S3\\3.04 Qualité de dev\\TD2\\TD2\\Exo1-View\\Exo1-View.csproj",
+  "projectFilePath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD2\\TD2\\Exo1-View\\Exo1-View.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sztarkj\\.nuget\\packages\\materialdesigncolors\\2.0.7\\materialdesigncolors.2.0.7.nupkg.sha512",
     "C:\\Users\\sztarkj\\.nuget\\packages\\materialdesignthemes\\4.6.0\\materialdesignthemes.4.6.0.nupkg.sha512"
