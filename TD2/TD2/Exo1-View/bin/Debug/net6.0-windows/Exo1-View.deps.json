@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Exo1-View/1.0.0": {
         "dependencies": {
+          "Convertisseur": "1.0.0",
           "MaterialDesignThemes": "4.6.0"
         },
         "runtime": {
@@ -32,6 +33,11 @@
             "fileVersion": "4.6.0.0"
           }
         }
+      },
+      "Convertisseur/1.0.0": {
+        "runtime": {
+          "Convertisseur.dll": {}
+        }
       }
     }
   },
@@ -54,6 +60,11 @@
       "sha512": "sha512-ogdEZNpbG4jDXxETwcX1vT4BlmQzW8txO20PQ5diqgg17mAXCiSGZ+GCWkR49LCL80v2qmKjeDr4guqAZWt1XQ==",
       "path": "materialdesignthemes/4.6.0",
       "hashPath": "materialdesignthemes.4.6.0.nupkg.sha512"
+    },
+    "Convertisseur/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

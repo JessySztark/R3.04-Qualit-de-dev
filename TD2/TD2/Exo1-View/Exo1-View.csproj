@@ -12,8 +12,4 @@
     <PackageReference Include="MaterialDesignThemes" Version="4.6.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Convertisseur\Convertisseur.csproj" />
-  </ItemGroup>
-
 </Project>

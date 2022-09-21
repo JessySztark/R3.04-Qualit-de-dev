@@ -22,6 +22,19 @@ namespace Exo1_View
     {
         public MainWindow()
         {
+            InitializeComponent();
+            GestionDevises gd = new GestionDevises();
+            ContentCtrl.Content = gd;
+        }
+        private void ConvertisseurDevise_Button_Click(object sender, RoutedEventArgs e)
+        {
+            ConvertisseurDevise cd = new ConvertisseurDevise();
+            ContentCtrl.Content = cd;
+        }
+        private void ConvertisseurEuro_Button_Click(object sender, RoutedEventArgs e)
+        {
+            ConvertisseurEuro ce = new ConvertisseurEuro();
+            ContentCtrl.Content = ce;
         }
     }
 }

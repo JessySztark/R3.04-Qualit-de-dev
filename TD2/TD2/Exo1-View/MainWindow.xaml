@@ -1,6 +1,6 @@
 ﻿<Window
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:Convertisseur="clr-namespace:Convertisseur;assembly=Exo1_View"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     Title="MainWindow"
     Width="800"
@@ -18,29 +18,27 @@
                 <DockPanel.RenderTransform>
                     <TransformGroup />
                 </DockPanel.RenderTransform>
+
                 <materialDesign:PopupBox
                     DockPanel.Dock="Left"
                     PlacementMode="BottomAndAlignLeftEdges"
                     StaysOpen="False">
-                    <StackPanel />
+
+                    <StackPanel x:Name="Stk">
+                        <Button x:Name="ConvertisseurDevise_Button" Click="ConvertisseurDevise_Button_Click" />
+                        <Button x:Name="ConvertisseurEuro_Button" />
+                        <Separator />
+                        <Button x:Name="GestionDevises_Button" />
+                    </StackPanel>
+
                 </materialDesign:PopupBox>
                 <TextBlock Width="124" FontSize="20"><Run Language="fr-fr" Text="Convertisseur" /></TextBlock>
             </DockPanel>
         </materialDesign:Card>
-        <ContentControl
-            Name="ContentMain"
-            Grid.Row="1"
-            Width="Auto"
-            Margin="0,30,0,0"
-            Background="Transparent"
-            Opacity="1">
-            <UserControl
-                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
-                <Convertisseur:ConvertisseurEuro_Button />
-            </UserControl>
-        </ContentControl>
+
+
+        <ContentControl x:Name="ContentCtrl" Grid.Row="1" />
+
         <Grid.RowDefinitions>
             <RowDefinition Height="40" />
             <RowDefinition Height="*" />

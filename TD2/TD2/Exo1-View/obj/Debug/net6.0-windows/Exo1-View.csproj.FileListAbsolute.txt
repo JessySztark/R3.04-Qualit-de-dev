@@ -46,4 +46,9 @@ P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debu
 P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debug\net6.0-windows\Exo1-View.csproj.CopyComplete
 P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debug\net6.0-windows\Exo1-View.genruntimeconfig.cache
 P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debug\net6.0-windows\ref\Exo1-View.dll
-P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\bin\Debug\net6.0-windows\Convertisseur.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\bin\Debug\net6.0-windows\Convertisseur.pdb
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debug\net6.0-windows\Themes\Generic.baml
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debug\net6.0-windows\UserControl\ConvertisseurDevise.g.cs
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debug\net6.0-windows\UserControl\ConvertisseurEuro.g.cs
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\TD2\Exo1-View\obj\Debug\net6.0-windows\UserControl\GestionDevises.g.cs

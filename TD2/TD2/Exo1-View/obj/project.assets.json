@@ -25,19 +25,6 @@
         "build": {
           "build/MaterialDesignThemes.targets": {}
         }
-      },
-      "Convertisseur/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Convertisseur.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Convertisseur.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
       }
     }
   },
@@ -101,16 +88,10 @@
         "materialdesignthemes.nuspec",
         "tools/VisualStudioToolsManifest.xml"
       ]
-    },
-    "Convertisseur/1.0.0": {
-      "type": "project",
-      "path": "../Convertisseur/Convertisseur.csproj",
-      "msbuildProject": "../Convertisseur/Convertisseur.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Convertisseur >= 1.0.0",
       "MaterialDesignThemes >= 4.6.0"
     ]
   },
@@ -145,11 +126,7 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD2\\TD2\\Convertisseur\\Convertisseur.csproj": {
-              "projectPath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD2\\TD2\\Convertisseur\\Convertisseur.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
