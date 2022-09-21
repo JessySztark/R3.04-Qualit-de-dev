@@ -39,6 +39,8 @@ namespace Exo1
 
         private void GestionDevises_Button_Click(object sender, RoutedEventArgs e)
         {
+            GestionDevises gd = new GestionDevises();
+            ContentCtrl.Content = gd;
         }
     }
 }

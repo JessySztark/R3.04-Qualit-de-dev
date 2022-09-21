@@ -36,10 +36,17 @@
                             x:Name="ConvertisseurEuro_Button"
                             Click="ConvertisseurEuro_Button_Click"
                             Content="Devise-&gt;€" />
-                        <Button x:Name="GestionDevises_Button" Click="GestionDevises_Button_Click" />
+                        <Separator />
+                        <Button
+                            x:Name="GestionDevises_Button"
+                            Click="GestionDevises_Button_Click"
+                            Content="Devises" />
                     </StackPanel>
                 </materialDesign:PopupBox>
-                <TextBlock Width="124" FontSize="20"><Run Language="fr-fr" Text="Convertisseur" /></TextBlock>
+                <TextBlock
+                    Width="124"
+                    Height="24"
+                    FontSize="20"><Run Language="fr-fr" Text="Convertisseur" /></TextBlock>
             </DockPanel>
         </materialDesign:Card>
 
