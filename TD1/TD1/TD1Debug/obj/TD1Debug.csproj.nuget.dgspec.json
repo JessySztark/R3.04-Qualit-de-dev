@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\Calculatrice.csproj": {}
+    "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\TD1Debug\\TD1Debug.csproj": {}
   },
   "projects": {
-    "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\Calculatrice.csproj": {
+    "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\TD1Debug\\TD1Debug.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\Calculatrice.csproj",
-        "projectName": "Calculatrice",
-        "projectPath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\Calculatrice.csproj",
+        "projectUniqueName": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\TD1Debug\\TD1Debug.csproj",
+        "projectName": "TD1Debug",
+        "projectPath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\TD1Debug\\TD1Debug.csproj",
         "packagesPath": "C:\\Users\\sztarkj\\.nuget\\packages\\",
-        "outputPath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\obj\\",
+        "outputPath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\TD1Debug\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -56,9 +56,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"

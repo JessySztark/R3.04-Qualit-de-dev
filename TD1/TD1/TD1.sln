@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo1", "Exo1\Exo1.csproj", "{0EF8D573-E1E0-4D71-889E-1A843C040658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculatrice", "Calculatrice\Calculatrice.csproj", "{52008E92-6B47-4763-9E4B-D7F5274217E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculatrice", "Calculatrice\Calculatrice.csproj", "{52008E92-6B47-4763-9E4B-D7F5274217E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TD1Debug", "TD1Debug\TD1Debug.csproj", "{09C6D95F-3E94-4C74-AD3A-C776A96E4781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{52008E92-6B47-4763-9E4B-D7F5274217E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52008E92-6B47-4763-9E4B-D7F5274217E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52008E92-6B47-4763-9E4B-D7F5274217E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C6D95F-3E94-4C74-AD3A-C776A96E4781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C6D95F-3E94-4C74-AD3A-C776A96E4781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C6D95F-3E94-4C74-AD3A-C776A96E4781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C6D95F-3E94-4C74-AD3A-C776A96E4781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
