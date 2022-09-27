@@ -9,13 +9,11 @@
     d:DesignWidth="800"
     mc:Ignorable="d">
     <Grid>
-        <DataGrid Background="{x:Null}">
-            <DataGrid>
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Nom" />
-                    <DataGridTextColumn Header="Montant" />
-                </DataGrid.Columns>
-            </DataGrid>
+        <DataGrid x:Name="dgDevises">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nom" />
+                <DataGridTextColumn Header="Montant" />
+            </DataGrid.Columns>
         </DataGrid>
         <Grid Grid.Row="1">
             <Button

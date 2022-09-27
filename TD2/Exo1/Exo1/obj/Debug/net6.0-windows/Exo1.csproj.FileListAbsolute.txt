@@ -29,3 +29,4 @@ P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\Exo1\Exo1\obj\Debug\ne
 P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\Exo1\Exo1\obj\Debug\net6.0-windows\Exo1.pdb
 P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\Exo1\Exo1\obj\Debug\net6.0-windows\Exo1.genruntimeconfig.cache
 P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\Exo1\Exo1\obj\Debug\net6.0-windows\ref\Exo1.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD2\Exo1\Exo1\bin\Debug\net6.0-windows\Data\Devises.json

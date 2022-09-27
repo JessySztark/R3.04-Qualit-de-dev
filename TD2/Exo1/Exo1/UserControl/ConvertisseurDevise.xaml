@@ -13,16 +13,25 @@
             <TextBlock
                 Width="280"
                 Height="30"
+                Margin="0px,20px,0px,0px"
                 Text="Montant en €" />
-            <TextBox Width="280" Height="30" />
+            <TextBox
+                Width="280"
+                Height="30"
+                Margin="0px,10px,0px,0px" />
         </StackPanel>
         <StackPanel Grid.Row="1">
             <TextBlock
                 Width="280"
-                Height="44"
+                Height="30"
+                Margin="0px,20px,0px,0px"
                 HorizontalAlignment="Center"
                 Text="Devise" />
-            <ComboBox Width="280" Height="46" />
+            <ComboBox
+                x:Name="cbDevises"
+                Width="280"
+                Height="30"
+                Margin="0px,10px,0px,0px" />
         </StackPanel>
         <Button
             Grid.Row="2"
@@ -31,10 +40,14 @@
         <StackPanel Grid.Row="3">
             <TextBlock
                 Width="280"
-                Height="44"
+                Height="30"
+                Margin="0px,20px,0px,0px"
                 HorizontalAlignment="Center"
                 Text="Montant en Devise" />
-            <TextBox Width="280" Height="30" />
+            <TextBox
+                Width="280"
+                Height="30"
+                Margin="0px,10px,0px,0px" />
         </StackPanel>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />

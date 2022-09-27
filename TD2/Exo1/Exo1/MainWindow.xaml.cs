@@ -23,8 +23,6 @@ namespace Exo1
         public MainWindow()
         {
             InitializeComponent();
-            GestionDevises gd = new GestionDevises();
-            ContentCtrl.Content = gd;
         }
         private void ConvertisseurDevise_Button_Click(object sender, RoutedEventArgs e)
         {

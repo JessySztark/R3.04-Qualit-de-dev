@@ -11,4 +11,10 @@
     <PackageReference Include="MaterialDesignThemes" Version="4.6.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Data\Devises.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
