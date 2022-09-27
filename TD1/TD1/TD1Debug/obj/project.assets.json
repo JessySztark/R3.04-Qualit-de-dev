@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Calculatrice/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Calculatrice.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculatrice.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Calculatrice/1.0.0": {
+      "type": "project",
+      "path": "../Calculatrice/Calculatrice.csproj",
+      "msbuildProject": "../Calculatrice/Calculatrice.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Calculatrice >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\sztarkj\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\Calculatrice.csproj": {
+              "projectPath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\Calculatrice.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -68,5 +91,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Le projet Calculatrice n'est pas compatible avec net6.0 (.NETCoreApp,Version=v6.0). Le projet Calculatrice prend en charge : net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Calculatrice",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

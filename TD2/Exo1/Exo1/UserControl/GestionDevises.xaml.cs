@@ -20,19 +20,6 @@ using System.Collections.ObjectModel;
 
 namespace Exo1
 {
-    private ObservableCollection<Devise> ocDevises = new ObservableCollection<Devise>();
-
-    public ObservableCollection<Devise> OcDevises
-    {
-        get
-        {
-            return ocDevises;
-        }
-        set
-        {
-            ocDevises = value;
-        }
-    }
     /// <summary>
     /// Logique d'interaction pour GestionDevises.xaml
     /// </summary>
@@ -40,16 +27,36 @@ namespace Exo1
 
     public partial class GestionDevises : UserControl
     {
+        private ObservableCollection<Devise> ocDevises;
+
+        public ObservableCollection<Devise> OcDevises
+        {
+            get
+            {
+                return ocDevises;
+            }
+            set
+            {
+                ocDevises = value;
+            }
+        }
+
         public GestionDevises()
         {
             InitializeComponent();
-            String JSONfile = ".\\Data\\Devises.json";
-            MessageBox.Show(JSONfile);
-            OcDevises = new ObservableCollection<Devise>(JsonSerializer.Deserialize<Devise>(JSONfile);
+            String JSONfile = "Data\\Devises.json";
+            String JSONString = File.ReadAllText(JSONfile);
+            ReadJSON(JSONString);
         }
 
         public void ReadJSON(string file)
         {
+            OcDevises = new ObservableCollection<Devise>(new List<Devise>());
+            for (int i = 0; i < 2; i++)
+            {
+                OcDevises.Add(new Devise(JsonSerializer.Deserialize<Devise>(file).NomDevise, JsonSerializer.Deserialize<Devise>(file).Taux));
+                MessageBox.Show(OcDevises[i].ToString());
+            }
         }
 
         public void WriteJSON()

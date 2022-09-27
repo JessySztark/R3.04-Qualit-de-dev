@@ -42,5 +42,11 @@ namespace Exo1.Models
                 this.taux = value;
             }
         }
+
+        public override string ToString()
+        {
+            String txt = $"Nom : {this.NomDevise}\nTaux : {this.Taux}";
+            return txt;
+        }
     }
 }

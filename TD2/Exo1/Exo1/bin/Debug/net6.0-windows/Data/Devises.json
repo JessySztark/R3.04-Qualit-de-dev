@@ -1,5 +1,4 @@
 {
-  [
     {
       "NomDevise": "Dollar",
       "Taux": 1.08
@@ -12,5 +11,4 @@
       "NomDevise": "Yen",
       "Taux": 120
     }
-  ]
 }

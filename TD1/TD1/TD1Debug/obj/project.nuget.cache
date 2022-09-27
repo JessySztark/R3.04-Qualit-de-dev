@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "qVCRZu9rUZdR3YgUMnp+63koCYpJnormEA9f9X5qdg4l2z//WJXed9SNqJm2tkOltM5fLk1vyA0tYTFZbabK2g==",
-  "success": true,
+  "dgSpecHash": "1Yh9hu1E3HJyKfR8O6FHNQSEQnXk0x9jl2n26Yn6PAayV1TUo80ee4LbuwMCrTWgDdZNZXX009gW66N/LK8bwA==",
+  "success": false,
   "projectFilePath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\TD1Debug\\TD1Debug.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Le projet Calculatrice n'est pas compatible avec net6.0 (.NETCoreApp,Version=v6.0). Le projet Calculatrice prend en charge : net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Calculatrice",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
