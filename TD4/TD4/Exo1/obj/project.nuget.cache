@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3RZlIQN1CUHSxiWESsYe1/sbIGNBkfAns+nkwDAvIGOrwwO4FvHcuFXPvHSYmHX1KaN+yYZmHsSlxvBBtJ0JUA==",
+  "success": true,
+  "projectFilePath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD4\\TD4\\Exo1\\Exo1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sztarkj\\.nuget\\packages\\materialdesigncolors\\2.0.9\\materialdesigncolors.2.0.9.nupkg.sha512",
+    "C:\\Users\\sztarkj\\.nuget\\packages\\materialdesignthemes\\4.6.1\\materialdesignthemes.4.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

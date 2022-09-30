@@ -86,24 +86,24 @@ namespace Exo1
 
     private void Baddition_Click(object sender, RoutedEventArgs e)
         {
-            Calcul.Addition(Nb1, Nb2, out resultat);
+            textboxOutput.Text = $"{Calcul.Addition(Nb1, Nb2)}";
         }
 
         private void Bsoustraction_Click(object sender, RoutedEventArgs e)
         {
-            Calcul.Soustraction(Nb1, Nb2, out resultat);
+            textboxOutput.Text = $"{Calcul.Soustraction(Nb1, Nb2)}";
         }
 
         private void Bmultiplication_Click(object sender, RoutedEventArgs e)
         {
-            Calcul.Multiplication(Nb1, Nb2, out resultat);
+                textboxOutput.Text = $"{Calcul.Multiplication(Nb1, Nb2)}";
         }
 
         private void Bdivision_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                Calcul.Division(Nb1, Nb2, out resultat);
+                        textboxOutput.Text = $"{Calcul.Division(Nb1, Nb2)}";
             }
             catch(Exception exc)
             {
@@ -112,7 +112,7 @@ namespace Exo1
         }
         private void Bfactorielle_Click(object sender, RoutedEventArgs e)
         {
-            Calcul.Factorielle(Nb1, out resultat);
+                    textboxOutput.Text = $"{Calcul.Factorielle(Nb1)}";
         }
     }
 }

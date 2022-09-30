@@ -1,16 +1,19 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net6.0-windows7.0": {
       "Calculatrice/1.0.0": {
         "type": "project",
-        "framework": "Unsupported,Version=v0.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/Calculatrice.dll": {}
         },
         "runtime": {
           "bin/placeholder/Calculatrice.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -22,7 +25,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net6.0-windows7.0": [
       "Calculatrice >= 1.0.0"
     ]
   },
@@ -48,15 +51,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "projectReferences": {
             "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\Calculatrice.csproj": {
               "projectPath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD1\\TD1\\Calculatrice\\Calculatrice.csproj"
@@ -71,8 +74,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -91,16 +94,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Le projet Calculatrice n'est pas compatible avec net6.0 (.NETCoreApp,Version=v6.0). Le projet Calculatrice prend en charge : net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
-      "libraryId": "Calculatrice",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

@@ -16,12 +16,14 @@
                     x:Name="textboxInput"
                     Grid.Row="0"
                     Margin="0,37,0,150"
-                    Text="{Binding Path=Nb1, Mode=TwoWay}" />
+                    Text="{Binding Nb1}"
+                    TextWrapping="Wrap" />
                 <TextBox
                     x:Name="textboxNumberModifier"
                     Grid.Row="0"
                     Margin="0,123,0,64"
-                    Text="{Binding Path=Nb2, Mode=TwoWay}" />
+                    Text="{Binding Nb2}"
+                    TextWrapping="Wrap" />
                 <StackPanel
                     Grid.Row="2"
                     Height="32"
@@ -69,7 +71,8 @@
                     Grid.Row="2"
                     Margin="0,105,0,71"
                     IsReadOnly="True"
-                    Text="{Binding Path=Resultat, Mode=TwoWay}" />
+                    Text="{Binding Resultat}"
+                    TextWrapping="Wrap" />
                 <Grid.RowDefinitions>
                     <RowDefinition Height="225px" />
                     <RowDefinition Height="*" />
