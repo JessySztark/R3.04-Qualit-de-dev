@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Data\Devises.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BusinessLayer;
 
 namespace Exo1
 {
@@ -20,9 +22,19 @@ namespace Exo1
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        ObservableCollection<Compte> LesComptes = new ObservableCollection<Compte>();
+        ComboBox cbCompte;
+        ObservableCollection<String> LesTypesOperations = new ObservableCollection<String>();
+
+
         public MainWindow()
         {
             InitializeComponent();
+            LesTypesOperations.Add("Retrait");
+            LesTypesOperations.Add("Dépôt");
+            this.DataContext = this;
+
         }
     }
 }

@@ -17,9 +17,17 @@
     TextOptions.TextFormattingMode="Ideal"
     TextOptions.TextRenderingMode="Auto"
     mc:Ignorable="d">
-    <Grid>
-        <materialDesign:Card Margin="16" Padding="32">
-            <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}" />
-        </materialDesign:Card>
+    <Grid DataContext="{Binding LesComptes}">
+        <TextBlock Margin="103,27,571,90" Text="Type d'opération : " />
+        <ComboBox
+            Name="cbxCompte"
+            Margin="258,23,400,0"
+            VerticalAlignment="Top"
+            ItemsSource="{Binding LesTypesOperations}" />
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
