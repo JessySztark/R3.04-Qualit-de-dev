@@ -23,17 +23,50 @@ namespace Exo1
     public partial class MainWindow : Window
     {
 
-        ObservableCollection<Compte> LesComptes = new ObservableCollection<Compte>();
-        ComboBox cbCompte;
-        ObservableCollection<String> LesTypesOperations = new ObservableCollection<String>();
+        private ObservableCollection<Compte> lesComptes = new ObservableCollection<Compte>();
+        private ObservableCollection<String> lesTypesOperations = new ObservableCollection<String>();
+
+        public ObservableCollection<Compte> LesComptes
+        {
+            get { 
+                return lesComptes; 
+            }
+            set { 
+                lesComptes = value; 
+            }
+        }
+
+        public ObservableCollection<String> LesTypesOperations
+        {
+            get { 
+                return lesTypesOperations; 
+            }
+            set { 
+                lesTypesOperations = value; 
+            }
+        }
 
 
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = this;
+
+            ServiceCompte objCompte = new ServiceCompte();
+            LesComptes = new ObservableCollection<Compte>(objCompte.GetAllComptes());
+
+            LesTypesOperations = new ObservableCollection<String>();
             LesTypesOperations.Add("Retrait");
             LesTypesOperations.Add("Dépôt");
-            this.DataContext = this;
+        }
+
+        private void btValider_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btAnnuler_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

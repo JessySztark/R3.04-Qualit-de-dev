@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo1", "Exo1\Exo1.csproj", "{E20CC0BC-4514-4AC7-80BB-AA618CE02FE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{4BF7EF1A-2D21-4D02-AA70-D66EEF67F140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{4BF7EF1A-2D21-4D02-AA70-D66EEF67F140}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{780D0786-675C-4FAF-9276-E823F673F116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{780D0786-675C-4FAF-9276-E823F673F116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

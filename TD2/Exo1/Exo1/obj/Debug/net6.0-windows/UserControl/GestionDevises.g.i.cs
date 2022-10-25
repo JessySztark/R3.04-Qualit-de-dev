@@ -61,7 +61,7 @@ namespace Exo1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Exo1;V1.0.0.0;component/usercontrol/gestiondevises.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Exo1;component/usercontrol/gestiondevises.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControl\GestionDevises.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

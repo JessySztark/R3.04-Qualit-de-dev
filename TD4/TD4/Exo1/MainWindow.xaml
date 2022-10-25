@@ -17,13 +17,41 @@
     TextOptions.TextFormattingMode="Ideal"
     TextOptions.TextRenderingMode="Auto"
     mc:Ignorable="d">
-    <Grid DataContext="{Binding LesComptes}">
-        <TextBlock Margin="103,27,571,90" Text="Type d'opération : " />
+    <Grid>
+        <TextBlock Margin="282,60,400,56" Text="Type d'opération : " />
         <ComboBox
-            Name="cbxCompte"
-            Margin="258,23,400,0"
+            Name="cbxTypeOpe"
+            Margin="416,56,242,0"
             VerticalAlignment="Top"
             ItemsSource="{Binding LesTypesOperations}" />
+        <TextBlock
+            Grid.Row="1"
+            Margin="327,66,400,57"
+            Text="Compte : " />
+        <ComboBox
+            x:Name="cbxCompte"
+            Grid.Row="1"
+            Margin="416,65,242,0"
+            VerticalAlignment="Top"
+            DisplayMemberPath="IdCompte"
+            ItemsSource="{Binding LesComptes}" />
+        <TextBlock
+            Grid.Row="2"
+            Margin="327,63,400,60"
+            Text="Montant : " />
+        <TextBox Grid.Row="2" Margin="400,46,270,60" />
+        <Button
+            x:Name="btValider"
+            Grid.Row="2"
+            Margin="48,10,607,88"
+            Click="btValider_Click"
+            Content="Valider" />
+        <Button
+            x:Name="btAnnuler"
+            Grid.Row="2"
+            Margin="48,74,607,25"
+            Click="btAnnuler_Click"
+            Content="Annuler" />
         <Grid.RowDefinitions>
             <RowDefinition Height="140" />
             <RowDefinition Height="1*" />
