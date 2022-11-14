@@ -62,7 +62,7 @@ namespace Exo1
 
         private void btValider_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show($"Opération : {cbxTypeOpe.Text} \nCompte : {cbxCompte.Text} \nMontant : {textBoxMontant.Text}");
         }
 
         private void btAnnuler_Click(object sender, RoutedEventArgs e)

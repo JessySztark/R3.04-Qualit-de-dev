@@ -19,7 +19,7 @@ namespace DataLayer
             {
                 NpgSQLConnect = new NpgsqlConnection
                 {
-                    ConnectionString = "Server=localhost;port=5432;Database=BDComptesBancairesJessy;uid=postgres;password=postgres;" // A MODIFIER SI VOTRE BD A UN AUTRE NOM
+                    ConnectionString = "Server=localhost;port=5432;Database=ComptesBancairesJessy;uid=postgres;password=postgres;" // A MODIFIER SI VOTRE BD A UN AUTRE NOM
                 };
                 NpgSQLConnect.Open();
                 return NpgSQLConnect.State.Equals(System.Data.ConnectionState.Open);
