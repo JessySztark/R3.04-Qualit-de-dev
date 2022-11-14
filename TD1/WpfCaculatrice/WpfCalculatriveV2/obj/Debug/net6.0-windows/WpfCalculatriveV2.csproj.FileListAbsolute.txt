@@ -1,0 +1,48 @@
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.exe
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.deps.json
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.runtimeconfig.json
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.dll
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.pdb
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\Calculatrice.dll
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\Calculatrice.pdb
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.AssemblyReference.cache
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\MainWindow.g.cs
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\App.g.cs
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2_MarkupCompile.cache
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2_MarkupCompile.lref
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\MainWindow.baml
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.g.resources
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.GeneratedMSBuildEditorConfig.editorconfig
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.AssemblyInfoInputs.cache
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.AssemblyInfo.cs
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.CoreCompileInputs.cache
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.CopyComplete
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.dll
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\refint\WpfCalculatriveV2.dll
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.pdb
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.genruntimeconfig.cache
+P:\S3\3.04 Qualité de dev\TD5\Correction TD1\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\ref\WpfCalculatriveV2.dll
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.exe
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.deps.json
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.runtimeconfig.json
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.dll
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.pdb
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\Calculatrice.dll
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\Calculatrice.pdb
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.AssemblyReference.cache
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2_MarkupCompile.cache
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2_MarkupCompile.lref
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.g.resources
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.AssemblyInfoInputs.cache
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.AssemblyInfo.cs
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.CoreCompileInputs.cache
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.CopyComplete
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.dll
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\refint\WpfCalculatriveV2.dll
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.pdb
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.genruntimeconfig.cache
+C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\ref\WpfCalculatriveV2.dll

@@ -1,0 +1,10 @@
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\b\Calculatrice\Debug\net6.0-windows\Calculatrice.deps.json
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\b\Calculatrice\Debug\net6.0-windows\Calculatrice.dll
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\i\Calculatrice\Debug\net6.0-windows\Calculatrice.csproj.AssemblyReference.cache
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\i\Calculatrice\Debug\net6.0-windows\Calculatrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\i\Calculatrice\Debug\net6.0-windows\Calculatrice.AssemblyInfoInputs.cache
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\i\Calculatrice\Debug\net6.0-windows\Calculatrice.AssemblyInfo.cs
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\i\Calculatrice\Debug\net6.0-windows\Calculatrice.csproj.CopyComplete
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\i\Calculatrice\Debug\net6.0-windows\Calculatrice.dll
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\i\Calculatrice\Debug\net6.0-windows\refint\Calculatrice.dll
+C:\Users\sztarkj\Desktop\WpfCaculatrice\.vs\WpfCaculatrice\v17\lut\0\i\Calculatrice\Debug\net6.0-windows\ref\Calculatrice.dll
