@@ -64,7 +64,7 @@ namespace Exo1
         {
             MessageBox.Show($"Opération : {cbxTypeOpe.Text} \nCompte : {cbxCompte.Text} \nMontant : {textBoxMontant.Text}");
         }
-        // ok
+
         private void btAnnuler_Click(object sender, RoutedEventArgs e)
         {
 
