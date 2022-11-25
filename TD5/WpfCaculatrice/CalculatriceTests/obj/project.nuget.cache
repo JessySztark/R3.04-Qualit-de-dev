@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kYh8g4nmdf07GH2NrLRRQel6IDrqIZbvQHDIwXW+KtGqYMnaicacvWJJ8VYZiW1YowpamoF+qJoi4rVO1UJ0fA==",
+  "dgSpecHash": "2WS+tS3r67s/vFtP0+qmij4KUp9dJ1XPY0iSc9wL8X2YtYdOn5PebnwFzaNzqXeBxeID/By9catj2ek9YX2S/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sztarkj\\Desktop\\WpfCaculatrice\\CalculatriceTests\\CalculatriceTests.csproj",
+  "projectFilePath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD5\\WpfCaculatrice\\CalculatriceTests\\CalculatriceTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sztarkj\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\sztarkj\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataLayer;
 using System.Collections.ObjectModel;
+using System.Windows;
 
 namespace BusinessLayer
 {
@@ -16,14 +17,14 @@ namespace BusinessLayer
             string requete = "SELECT * FROM vComptes";
             List<Compte> comptes = new List<Compte>();
             DataAccess data = new DataAccess();
-            DataTable? lesDatas = new DataTable();
+            DataTable lesDatas = new DataTable();
             try
             {
-                lesDatas ??= data.GetData(requete);
+                lesDatas = data.GetData(requete);
             }
             catch (Exception e)
             {
-                throw new ArgumentException($"Requête invalide : {e.ToString()}", "Erreur !");
+                MessageBox.Show(e.ToString(), "erreur");
             }
             foreach (DataRow uneDataRow in lesDatas.Rows)
             {
@@ -35,12 +36,14 @@ namespace BusinessLayer
                     if (res.GetType() == typeof(int))
                     {
                         idCompte = Int32.Parse(res.ToString());
+                        MessageBox.Show(idCompte.ToString(), "idcompte");
                     }
                     else if (res.GetType() == typeof(decimal))
                     {
                         solde = Double.Parse(res.ToString());
+                        MessageBox.Show(solde.ToString(), "solde");
                     }
-                    comptes.Add(new Compte(Convert.ToInt32(idCompte), Convert.ToDouble(solde)));
+                    comptes.Add(new Compte(idCompte, solde));
                 }
                 
             }

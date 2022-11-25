@@ -26,7 +26,7 @@
             ItemsSource="{Binding LesTypesOperations}" />
         <TextBlock
             Grid.Row="1"
-            Margin="327,66,400,57"
+            Margin="327,66,400,48"
             Text="Compte : " />
         <ComboBox
             x:Name="cbxCompte"
@@ -34,7 +34,7 @@
             Margin="416,65,242,0"
             VerticalAlignment="Top"
             DisplayMemberPath="IdCompte"
-            ItemsSource="{Binding lesComptes}" />
+            ItemsSource="{Binding LesComptes}" />
         <TextBlock
             Grid.Row="2"
             Margin="327,63,400,60"
@@ -42,7 +42,7 @@
         <TextBox
             x:Name="textBoxMontant"
             Grid.Row="2"
-            Margin="400,46,270,60" />
+            Margin="416,46,254,60" />
         <Button
             x:Name="btValider"
             Grid.Row="2"

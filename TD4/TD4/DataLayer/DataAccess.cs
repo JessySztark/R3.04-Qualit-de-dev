@@ -1,14 +1,14 @@
 using Npgsql;
 using System;
 using System.Data;
-
+using System.Windows;
 
 namespace DataLayer
 {
     public class DataAccess // A MODIFIER SI VOTRE PROJET A UN AUTRE NOM
     {
         public NpgsqlConnection? NpgSQLConnect { get; set; }
-            
+
         /// <summary>
         /// Connexion à la base de données
         /// </summary>
@@ -22,10 +22,12 @@ namespace DataLayer
                     ConnectionString = "Server=localhost;port=5432;Database=ComptesBancairesJessy;uid=postgres;password=postgres;" // A MODIFIER SI VOTRE BD A UN AUTRE NOM
                 };
                 NpgSQLConnect.Open();
+                MessageBox.Show("La connexion à la BDD a été établie");
                 return NpgSQLConnect.State.Equals(System.Data.ConnectionState.Open);
             }
             catch
             {
+                MessageBox.Show("La connexion à la BDD n'a pas été établie");
                 return false;
             }
         }
@@ -35,7 +37,7 @@ namespace DataLayer
         /// </summary>
         private void CloseConnection()
         {
-            if (NpgSQLConnect!=null)
+            if (NpgSQLConnect != null)
                 if (NpgSQLConnect.State.Equals(System.Data.ConnectionState.Open))
                 {
                     NpgSQLConnect.Close();
