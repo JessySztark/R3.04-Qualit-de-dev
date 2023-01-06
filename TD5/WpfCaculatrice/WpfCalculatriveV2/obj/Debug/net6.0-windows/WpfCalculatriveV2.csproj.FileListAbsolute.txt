@@ -46,3 +46,29 @@ C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windo
 C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.pdb
 C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.genruntimeconfig.cache
 C:\Users\sztarkj\Desktop\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\ref\WpfCalculatriveV2.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.exe
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.deps.json
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.runtimeconfig.json
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\WpfCalculatriveV2.pdb
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\Calculatrice.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\Calculatrice.pdb
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.AssemblyReference.cache
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\MainWindow.g.cs
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\App.g.cs
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2_MarkupCompile.cache
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2_MarkupCompile.lref
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\MainWindow.baml
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.g.resources
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.GeneratedMSBuildEditorConfig.editorconfig
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.AssemblyInfoInputs.cache
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.AssemblyInfo.cs
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.CoreCompileInputs.cache
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.csproj.CopyComplete
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\refint\WpfCalculatriveV2.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.pdb
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\WpfCalculatriveV2.genruntimeconfig.cache
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\obj\Debug\net6.0-windows\ref\WpfCalculatriveV2.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\WpfCalculatriveV2\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll

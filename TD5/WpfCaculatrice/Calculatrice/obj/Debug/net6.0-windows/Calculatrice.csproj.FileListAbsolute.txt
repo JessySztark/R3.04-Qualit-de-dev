@@ -22,3 +22,15 @@ C:\Users\sztarkj\Desktop\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Ca
 C:\Users\sztarkj\Desktop\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\refint\Calculatrice.dll
 C:\Users\sztarkj\Desktop\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.pdb
 C:\Users\sztarkj\Desktop\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\ref\Calculatrice.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\bin\Debug\net6.0-windows\Calculatrice.deps.json
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\bin\Debug\net6.0-windows\Calculatrice.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\bin\Debug\net6.0-windows\Calculatrice.pdb
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.csproj.AssemblyReference.cache
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.GeneratedMSBuildEditorConfig.editorconfig
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.AssemblyInfoInputs.cache
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.AssemblyInfo.cs
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.csproj.CoreCompileInputs.cache
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\refint\Calculatrice.dll
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\Calculatrice.pdb
+P:\S3\3.04 Qualité de dev\github\R3.04-Qualit-de-dev\TD5\WpfCaculatrice\Calculatrice\obj\Debug\net6.0-windows\ref\Calculatrice.dll

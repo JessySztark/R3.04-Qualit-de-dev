@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace WpfCalculatriveV2
 {
@@ -23,6 +24,21 @@ namespace WpfCalculatriveV2
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public ICalcul ObjCalcul
+        {
+            get {
+                return App.Current.Services.GetService<ICalcul>();
+            }
+        }
+
+        public ICalculAvance ObjCalculAvance
+        {
+            get
+            {
+                return CalculAvance.Instance;
+            }
+        }
 
         public MainWindow()
         {
@@ -48,24 +64,24 @@ namespace WpfCalculatriveV2
 
         private void ButtonAddition_Click(object sender, RoutedEventArgs e)
         {
-            Resultat = Calcul.Addition(Nb1, Nb2);
+            Resultat = ObjCalcul.Addition(Nb1, Nb2);
         }
 
         private void ButtonSoustraction_Click(object sender, RoutedEventArgs e)
         {
-            Resultat = Calcul.Soustraction(Nb1, Nb2);
+            Resultat = ObjCalcul.Soustraction(Nb1, Nb2);
         }
 
         private void ButtonMultiplication_Click(object sender, RoutedEventArgs e)
         {
-            Resultat = Calcul.Multiplication(Nb1, Nb2);
+            Resultat = ObjCalcul.Multiplication(Nb1, Nb2);
         }
 
         private void ButtonDivision_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                Resultat = Calcul.Division(Nb1, Nb2);
+                Resultat = ObjCalcul.Division(Nb1, Nb2);
             }
             catch (Exception ex)
             {
@@ -86,12 +102,19 @@ namespace WpfCalculatriveV2
         {
             try
             {
-                Resultat = (double)Calcul.Factorielle(Nb1);
+                Resultat = (double)ObjCalcul.Factorielle(Nb1);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(this, ex.Message, "Erreur", MessageBoxButton.OK,MessageBoxImage.Error);
             }
+        }
+
+        private void ButtonMoyenne_Click(object sender, RoutedEventArgs e)
+        {
+            ICalcul calcul = Calcul.Instance;
+            ICalcul calcul2 = Calcul.Instance;
+            Resultat = ObjCalculAvance.Moyenne(calcul, Nb1, Nb2);
         }
     }
 }

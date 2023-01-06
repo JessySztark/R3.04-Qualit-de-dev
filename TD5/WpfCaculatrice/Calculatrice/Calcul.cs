@@ -2,46 +2,32 @@ using System;
 
 namespace Calculatrice
 {
-    public static class Calcul
+    public class Calcul : ICalcul
     {
-        public static Double Addition(Double a, Double b)
+        public Calcul() {}
+
+        public string Value { get; set; }
+
+        private static Calcul? _instance;
+
+        private static readonly object _lock = new object();
+
+        public static Calcul Instance
         {
-            return a + b;
-        }
-
-        public static Double Soustraction(Double a, Double b)
-        {
-            return a - b;
-        }
-
-        public static Double Multiplication(Double a, Double b)
-        {
-            return a * b;
-        }
-
-        public static Double Division(Double a, Double b)
-        {
-            if (b == 0)
-                throw new DivideByZeroException("Erreur de division par zéro.");
-            else
-                return a / b;
-        }
-
-        public static Double Factorielle(double number)
-        {
-            int nb=(int)number;
-            if (number<0)
-                throw new ArgumentException("Le nombre doit être positif.");
-            if (number!=nb)
-                throw new ArgumentException("Le nombre doit être un entier.");
-
-            int factorielle=1;
-
-            for (int counter = 1; counter <= nb; counter++)
+            get
             {
-                factorielle *= counter;
+                if (_instance == null)
+                {
+                    lock (_lock)
+                    {
+                        if (_instance == null)
+                        {
+                            _instance = new Calcul();
+                        }
+                    }
+                }
+                return _instance;
             }
-            return factorielle;
         }
     }
 }

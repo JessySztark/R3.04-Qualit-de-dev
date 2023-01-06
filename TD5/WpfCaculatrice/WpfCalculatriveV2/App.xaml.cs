@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Calculatrice;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +15,13 @@ namespace WpfCalculatriveV2
     /// </summary>
     public partial class App : Application
     {
+        public ServiceProvider Services { get; }
+        public App()
+        {
+            ServiceCollection services = new ServiceCollection();
+            services.AddSingleton<ICalcul, Calcul2>();
+            Services = services.BuildServiceProvider();
+        }
+        public new static App Current => (App)Application.Current;
     }
 }

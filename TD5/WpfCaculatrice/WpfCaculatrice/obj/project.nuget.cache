@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2cmu37iTUK4ArOrUvjF/urKvaBSRZyznY3MrFZfMS5SKBv0DsQ8JHv/6yRP8v7eXlu/IftUVjwOFxNyMFKMqmQ==",
+  "dgSpecHash": "EYLYeE3TUVwkkCdaIYmxOm4jMk2g3L0Y32y8RqlxA/0UGrdFdwSnfFqTMJFCX2K9KavPYXYoTEPlD9gcZKu4SA==",
   "success": true,
   "projectFilePath": "P:\\S3\\3.04 Qualité de dev\\github\\R3.04-Qualit-de-dev\\TD5\\WpfCaculatrice\\WpfCaculatrice\\WpfCalculatrice.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\sztarkj\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\sztarkj\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
