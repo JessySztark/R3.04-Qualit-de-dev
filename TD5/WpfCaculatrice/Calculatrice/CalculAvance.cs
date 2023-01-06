@@ -9,6 +9,8 @@ namespace Calculatrice
     public class CalculAvance : ICalculAvance
     {
 
+        public CalculAvance() { }
+
         public string Value { get; set; }
 
         private static CalculAvance _instance;

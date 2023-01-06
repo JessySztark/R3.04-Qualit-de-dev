@@ -19,7 +19,8 @@ namespace WpfCalculatriveV2
         public App()
         {
             ServiceCollection services = new ServiceCollection();
-            services.AddSingleton<ICalcul, Calcul2>();
+            services.AddSingleton<ICalcul, Calcul>();
+            services.AddSingleton<ICalculAvance, CalculAvance>();
             Services = services.BuildServiceProvider();
         }
         public new static App Current => (App)Application.Current;
